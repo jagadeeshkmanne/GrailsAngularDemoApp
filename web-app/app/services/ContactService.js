@@ -19,12 +19,6 @@ app.factory('ContactService', function ($http,$location) {
         });
 	}
 
-    factory.edit = function(contactId) {
-        return $http.get('contact/edit/'+contactId).then(function (results) {
-            return results.data;
-        });
-    }
-
     factory.delete = function(contactId) {
         return $http.delete('contact/delete/'+contactId).then(function (results) {
             return results.data;
