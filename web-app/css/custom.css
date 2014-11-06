@@ -1,0 +1,37 @@
+body {
+	background-color:#2C3E50;
+}
+
+.help-block {
+    color: red;
+}
+
+.alert-msg {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    color: #333;
+    line-height: 1.7em;
+    font-size: 13px;
+    min-height: 65px;
+    width: 960px;
+    position: absolute;
+    left:50%;
+}
+
+.alert-msg.custom {
+    color: #3c763d;
+    line-height: 1.7em;
+    font-size: 14px;
+    min-height: 5px;
+    width: 500px;
+    position: absolute;
+    left: 30%;
+    top: 0;
+    padding-top: 8px;
+    font-weight: normal;
+}
+
+.alert .message {
+    font-size: 14px;
+}

@@ -1,0 +1,52 @@
+<div class="panel-body" ng-controller="UserController">
+	<div class="col-sm-6 col-md-4 col-md-offset-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<strong> Signup</strong>
+			</div>
+			<div class="panel-body">
+				<form role="form" ng-submit="signup()" method="POST" name="userForm" novalidate>
+					<fieldset>
+						<div class="row">
+							<div class="col-sm-12 col-md-10  col-md-offset-1 ">
+								<div class="form-group">
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="glyphicon glyphicon-user"></i>
+										</span> 
+										<input ng-model="user.name" ng-required="true" ng-change="clearError(userForm,'name')" class="form-control" placeholder="Name" name="name" type="text" autofocus>
+									</div>
+                                    <p ng-show="hasErrors(userForm, 'name')" class="help-block"><i class="fa fa-warning"></i> {{getErrors(userForm, 'name')}}</p>
+								</div>
+								<div class="form-group">
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="glyphicon glyphicon-envelope"></i>
+										</span> 
+										<input ng-model="user.email" ng-required="true" ng-change="clearError(userForm,'email')" class="form-control" placeholder="Email" name="email" type="text" autofocus>
+									</div>
+                                    <p ng-show="hasErrors(userForm, 'email')" class="help-block"><i class="fa fa-warning"></i> {{getErrors(userForm, 'email')}}</p>
+								</div>
+								<div class="form-group">
+									<div class="input-group">
+										<span class="input-group-addon">
+											<i class="glyphicon glyphicon-lock"></i>
+										</span>
+										<input ng-model="user.password" ng-required="true" ng-change="clearError(userForm,'password')" class="form-control" placeholder="Password" name="password" type="password" value="">
+									</div>
+                                    <p ng-show="hasErrors(userForm, 'password')" class="help-block"><i class="fa fa-warning"></i> {{getErrors(userForm, 'password')}}</p>
+								</div>
+								<div class="form-group">
+									<input type="submit" class="btn btn-sm btn-primary btn-block" value="Signup">
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<div class="panel-footer ">
+				Already have an account! <a href="#/user/login"> Sign In Here </a>
+			</div>
+		</div>
+	</div>
+</div>
