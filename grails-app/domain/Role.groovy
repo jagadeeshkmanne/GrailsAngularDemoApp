@@ -1,5 +1,3 @@
-
-
 class Role extends BaseEntity {
 
 	String authority

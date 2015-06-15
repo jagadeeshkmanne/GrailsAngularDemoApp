@@ -1,4 +1,3 @@
-
 abstract class BaseEntity implements Serializable{
 	
 	transient springSecurityService

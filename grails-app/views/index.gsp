@@ -8,27 +8,31 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="${resource(dir: 'lib/bootstrap/css', file: 'bootstrap.min.css')}" rel="stylesheet">
-		<link href="${resource(dir: 'css', file: 'custom.css')}" rel="stylesheet">
-        <script src="${resource(dir: 'lib', file: 'jquery.js')}"></script>
+
+        <asset:stylesheet href="lib/bootstrap/css/bootstrap.min.css"/>
+        <asset:stylesheet href="custom.css"/>
+
+        <asset:javascript src="lib/jquery.js"/>
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<script src="${resource(dir: 'lib/angular', file: 'angular.min.js')}"></script>
-        <script src="${resource(dir: 'lib/angular', file: 'angular-route.min.js')}"></script>
-        <script src="${resource(dir: 'lib/angular', file: 'angular-animate.min.js')}"></script>
-        <script src="${resource(dir: 'lib/angular', file: 'angular-cookies.min.js')}"></script>
-		<script src="${resource(dir: 'app', file: 'app.js')}"></script>
-        <script src="${resource(dir: 'app/services', file: 'FlashService.js')}"></script>
-		<script src="${resource(dir: 'app/services', file: 'UserService.js')}"></script>
-        <script src="${resource(dir: 'app/services', file: 'ContactService.js')}"></script>
-        <script src="${resource(dir: 'app/services', file: 'AuthService.js')}"></script>
-        <script src="${resource(dir: 'app/services', file: 'SecurityService.js')}"></script>
-        <script src="${resource(dir: 'app/controllers', file: 'AppContextController.js')}"></script>
-        <script src="${resource(dir: 'app/controllers', file: 'BaseController.js')}"></script>
-        <script src="${resource(dir: 'app/controllers', file: 'UserController.js')}"></script>
-		<script src="${resource(dir: 'app/controllers', file: 'ContactController.js')}"></script>
-        <script src="${resource(dir: 'app/controllers', file: 'AuthController.js')}"></script>
+        <asset:javascript src="lib/angular/angular.min.js"/>
+        <asset:javascript src="lib/angular/angular-route.min.js"/>
+        <asset:javascript src="lib/angular/angular-animate.min.js"/>
+        <asset:javascript src="lib/angular/angular-cookies.min.js"/>
+
+        <asset:javascript src="app/app.js"/>
+        <asset:javascript src="app/services/FlashService.js"/>
+        <asset:javascript src="app/services/UserService.js"/>
+        <asset:javascript src="app/services/ContactService.js"/>
+        <asset:javascript src="app/services/AuthService.js"/>
+        <asset:javascript src="app/services/SecurityService.js"/>
+
+        <asset:javascript src="app/controllers/AppContextController.js"/>
+        <asset:javascript src="app/controllers/BaseController.js"/>
+        <asset:javascript src="app/controllers/UserController.js"/>
+        <asset:javascript src="app/controllers/ContactController.js"/>
+        <asset:javascript src="app/controllers/AuthController.js"/>
 	</head>
 	<body>
 		<div class="container">

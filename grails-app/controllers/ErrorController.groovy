@@ -1,10 +1,3 @@
-
-
-import grails.converters.JSON
-
-import org.codehaus.groovy.grails.web.errors.GrailsWrappedRuntimeException
-import org.springframework.http.HttpStatus
-
 class ErrorController extends BaseController {
 
     def forbidden() {

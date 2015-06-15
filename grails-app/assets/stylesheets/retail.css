@@ -1,0 +1,76 @@
+.buttons .add_to_cart, .update_cart, .next, .add_address, .back, .payment, .cancel {
+	background-position: 0.7em center;
+	background-repeat: no-repeat;
+	text-indent: 25px;
+}
+
+.nav a.basket, a.products, a.checkout, a.edit_basket, a.add_address, a.address, a.payment, a.account, a.orders {
+	background-position: 0.7em center;
+	background-repeat: no-repeat;
+	text-indent: 25px;
+}
+
+.nav a.basket {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/basket.png');
+}
+
+.nav a.products {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/images.png');
+}
+
+.nav a.checkout {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/basket_go.png');
+}
+
+.nav a.edit_basket {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/basket_edit.png');
+}
+
+.nav a.add_address {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/building_add.png');
+}
+
+.nav a.address {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/building.png');
+}
+
+.nav a.orders {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/money.png');
+}
+
+.nav a.payment {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/creditcards.png');
+}
+
+.nav a.account {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/user.png');
+}
+
+.buttons .add_to_cart {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/basket_put.png');
+}
+
+.buttons .update_cart {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/basket_edit.png');
+}
+
+.buttons .next {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/control_fastforward_blue.png');
+}
+
+.buttons .back {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/control_rewind_blue.png');
+}
+
+.buttons .add_address {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/building_add.png');
+}
+
+.buttons .payment {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/creditcards.png');
+}
+
+.buttons .cancel {
+	background-image: url('/retail/plugins/famfamfam-1.0.1/images/icons/cancel.png');
+}
+

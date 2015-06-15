@@ -16,43 +16,43 @@ app.config(['$routeProvider', '$locationProvider',
             })
 
             .when('/user/signup', {
-                templateUrl: 'static/app/views/signup.html',
+                templateUrl: 'assets/app/views/signup.html',
                 controller: 'UserController',
             })
             .when('/user/login', {
-                templateUrl: 'static/app/views/login.html',
+                templateUrl: 'assets/app/views/login.html',
                 controller: 'UserController',
             })
             .when('/contact/list', {
-                templateUrl: 'static/app/views/list.html',
+                templateUrl: 'assets/app/views/list.html',
                 controller: 'ContactController',
                 resolve: {
                     action: function(){return 'list';}
                 }
             })
             .when('/contact/add', {
-                templateUrl: 'static/app/views/contact.html',
+                templateUrl: 'assets/app/views/contact.html',
                 controller: 'ContactController',
                 resolve: {
                     action: function(){return 'add';}
                 }
             })
             .when('/contact/edit/:contactId', {
-                templateUrl: 'static/app/views/contact.html',
+                templateUrl: 'assets/app/views/contact.html',
                 controller: 'ContactController',
                 resolve: {
                     action: function(){return 'edit';}
                 }
             })
             .when('/contact/delete/:contactId', {
-                templateUrl: 'static/app/views/list.html',
+                templateUrl: 'assets/app/views/list.html',
                 controller: 'ContactController',
                 resolve: {
                     action: function(){return 'delete';}
                 }
             })
             .when('/contact/details/:contactId', {
-                templateUrl: 'static/app/views/details.html',
+                templateUrl: 'assets/app/views/details.html',
                 controller: 'ContactController',
                 resolve: {
                     action: function(){return 'details';}

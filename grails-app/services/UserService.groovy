@@ -1,4 +1,3 @@
-
 class UserService  extends BaseService{
 	
 	def save(User user){

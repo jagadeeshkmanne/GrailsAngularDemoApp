@@ -1,10 +1,13 @@
 import grails.converters.JSON
+import grails.plugin.springsecurity.annotation.Secured
 import org.codehaus.groovy.grails.plugins.web.taglib.ValidationTagLib
 
 class UserController {
 
 	def userService;
-	
+
+
+    @Secured(['IS_AUTHENTICATED_ANONYMOUSLY'])
     def signup() {
         def user = new User(request.JSON)
         def res = [:]

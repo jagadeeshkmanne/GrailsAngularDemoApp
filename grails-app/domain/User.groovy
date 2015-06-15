@@ -1,5 +1,3 @@
-
-
 class User extends BaseEntity {
 
 	String name

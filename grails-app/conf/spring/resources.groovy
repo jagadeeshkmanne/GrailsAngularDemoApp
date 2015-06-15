@@ -1,4 +1,4 @@
-import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
+import grails.plugin.springsecurity.SpringSecurityUtils
 
 // Place your Spring DSL code here
 beans = {

@@ -1,6 +1,6 @@
 import grails.converters.JSON
+import grails.plugin.springsecurity.annotation.Secured
 import org.codehaus.groovy.grails.plugins.web.taglib.ValidationTagLib
-import grails.plugins.springsecurity.Secured
 
 @Secured(['IS_AUTHENTICATED_FULLY'])
 class ContactController {

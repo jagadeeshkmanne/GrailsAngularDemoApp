@@ -1,4 +1,3 @@
-
 class BaseController {
     def springSecurityService
     def messageSource
