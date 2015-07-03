@@ -299,10 +299,25 @@ Full-Width Styles
   padding: 50px 10px 30px 10px;
 }
 
+#main_header {
+  width:100%;
+}
+
+#main_header .profile-pic {
+  width: 25%; 
+  float: left; 
+  display: inline-block;
+}
+
+#main_header .project-info {
+  width: 75%; 
+  display: inline-block;
+}
+
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 28px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
