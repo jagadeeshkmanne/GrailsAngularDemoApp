@@ -314,6 +314,11 @@ Full-Width Styles
   margin:0px;
 }
 
+#main_header .profile-pic .name {
+  color:#fff;
+  font-weight:bold;
+}
+
 #main_header .project-info {
   width: 75%; 
   display: inline-block;
