@@ -309,6 +309,11 @@ Full-Width Styles
   display: inline-block;
 }
 
+#main_header .profile-pic img {
+  padding:0px;
+  margin:0px;
+}
+
 #main_header .project-info {
   width: 75%; 
   display: inline-block;
