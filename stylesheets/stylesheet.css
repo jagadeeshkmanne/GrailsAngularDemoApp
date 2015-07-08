@@ -478,4 +478,34 @@ Small Device Styles
  40% {transform: translateY(-30px);}
  60% {transform: translateY(-15px);}
 }
+
+.bounce_two {
+ animation: bounce_two 2s infinite;
+ -webkit-animation: bounce_two 2s infinite;
+ -moz-animation: bounce_two 2s infinite;
+ -o-animation: bounce_two 2s infinite;
+}
+ 
+@-webkit-keyframes bounce_two {
+ 0%, 25%, 55%, 85%, 100% {-webkit-transform: translateY(0);} 
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce_two {
+ 0%, 25%, 55%, 85%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-30px);}
+ 60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce_two {
+ 0%, 25%, 55%, 85%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-30px);}
+ 60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce_two {
+ 0%, 25%, 55%, 85%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
  
