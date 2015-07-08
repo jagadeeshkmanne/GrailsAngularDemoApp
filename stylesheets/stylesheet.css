@@ -480,10 +480,10 @@ Small Device Styles
 }
 
 .bounce_two {
- animation: bounce_two 2s infinite;
- -webkit-animation: bounce_two 2s infinite;
- -moz-animation: bounce_two 2s infinite;
- -o-animation: bounce_two 2s infinite;
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
 }
  
 @-webkit-keyframes bounce_two {
