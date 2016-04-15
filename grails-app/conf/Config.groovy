@@ -95,6 +95,10 @@ environments {
     }
 }
 
+grails.assets.minifyCss = false
+grails.assets.bundle=true
+grails.assets.minifyJs = false
+
 // log4j configuration
 log4j.main = {
     // Example of changing the log pattern for the default console appender:
@@ -137,11 +141,3 @@ grails.plugin.springsecurity.auth.loginFormUrl = "/login"
 grails.plugin.springsecurity.auth.defaultUrl = "/"
 grails.plugin.springsecurity.successHandler.defaultTargetUrl = "/"
 grails.plugin.springsecurity.failureHandler.defaultFailureUrl = "/login/loginFailed"
-
-
-
-// grails-braintree plugin settings
-braintree.credentials.usesandbox=true
-braintree.sandbox.credentials.merchantId="dc629vhqjgc7tnx5"
-braintree.sandbox.credentials.publicKey="vshsthbzzv7fbkht"
-braintree.sandbox.credentials.privateKey="fcbrv5wyzd659d5t"
